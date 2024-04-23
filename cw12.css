@@ -1,0 +1,60 @@
+table{
+    margin: 20px auto;
+    text-align: center;
+    background-color: silver;
+    border-spacing: 0;
+}
+img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.btns {
+    display: inline-block;
+    white-space:nowrap
+}
+
+button{
+    padding: 5px 10px 5px 10px;
+    border: unset;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.v{
+    display: inline;
+    background-color: cornflowerblue;
+    
+}
+
+.d{
+    display: inline;
+    background-color:crimson;
+}
+
+caption{
+    margin: 10px;
+    font-weight: bold;
+}
+thead{
+background-color: black;
+color: white;
+padding: 20px;
+
+
+}
+
+thead th{
+    padding: 15px;
+    border: 1px solid white;
+}
+
+table td{
+    padding: 30px;
+    border: 1px solid white;
+    
+
+}

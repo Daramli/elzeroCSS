@@ -1,0 +1,44 @@
+.big{
+    width: 400px;
+    overflow: hidden;
+    list-style: none;
+    margin: 20px;
+    padding: 20px;
+}
+.html{
+padding: 15px;
+background-color: silver;
+margin: 20px;
+}
+.css{
+    padding: 10px;
+    background-color: silver;
+    margin: 20px;
+}
+.js{
+    padding: 10px;
+    background-color: silver;
+    margin: 20px;
+}
+
+ol{
+padding-left: 20px;
+
+}
+
+ol li{
+    background-color: bisque;
+    margin: 10px;
+    padding: 5px;
+
+}
+ul{
+    padding-left: 0;
+}
+.jsl li{
+    background-color: bisque;
+    margin: 10px;
+    padding: 5px;
+    list-style-position: inside;
+    padding-left: 10px;
+}
