@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px  0 red , 5px 5px 0 blue ,3px 3px 0 green;
+    font-size: 100px;
+}
+
+p{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+
+.one{
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.two{
+    font-size: 50px;
+    text-transform: capitalize;
+
+}
+
+.three{
+    font-size: 40px;
+    text-transform: lowercase;
+}
+
+div{
+    background-color: aqua;
+    width: 400px;
+    padding: 20px;
+    margin-top: -20px;
+    font-size: 20px;
+    white-space: nowrap;
+   overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a{
+    font-family:sans-serif ;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:teal ;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 10px solid rgb(78, 75, 75);
+
+}
