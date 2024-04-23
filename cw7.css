@@ -1,0 +1,40 @@
+.container{
+    width: 800px;
+    background-color: #eee;
+    padding: 10px;
+    float: right;
+}
+
+.fw{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: silver;
+}
+
+.third{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: silver;
+    width: calc(600px/3);
+    
+}
+.half{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: silver;
+    width: calc(670px/2);
+}
+.quart{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: silver;
+    width: calc(540px/4);
+}
