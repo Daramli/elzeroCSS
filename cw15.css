@@ -1,0 +1,33 @@
+.container{
+    width: 550px;
+    white-space: wrap;
+    text-align: center;
+}
+
+.container div{
+    display: inline-block;
+    height: 200px;
+    padding: 30px;
+    margin: 30px;
+    background-color: silver;
+    overflow: hidden;
+}
+
+.container div .price{
+    background-color: #eee;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+}
+
+button{
+    border: none;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: steelblue;
+    color: white;
+}
+

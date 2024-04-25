@@ -1,0 +1,38 @@
+section{
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+    border-radius: 50%;
+    box-shadow: 10px 0 0 orangered, -10px 0 0 cornflowerblue ;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.parent{
+    height: 300px;
+    width: 600px;
+    background-color: #eee;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+
+.parent div{
+    margin: 10px;
+    background-color: rgb(248, 64, 32);
+    color: white;
+    width: calc(80%/3);
+    padding: 10px;
+    text-align: center;
+
+}

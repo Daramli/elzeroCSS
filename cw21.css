@@ -1,0 +1,88 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.page{
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.logo{
+    background-color: silver;
+    margin: 10px;
+    padding: 5px 20px;
+    align-content: center;
+}
+
+.links{
+    
+    display: flex;
+    flex-flow: row nowrap;
+    background-color:silver;
+    margin: 10px;
+    padding: 5px 20px;
+    justify-content: flex-end;
+    width: 80%;
+    flex-grow: 1;
+    
+    
+    
+
+}
+
+.links li{
+    list-style-type: none ;
+    padding: 5px 20px;
+    cursor: pointer;
+    
+}
+
+.main-area{
+    
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    height: 300px;
+    justify-content: space-between;
+
+}
+
+.content{
+    background-color: silver;
+width: 60%;
+padding: 5px 10px;
+}
+
+.sidebar{
+    background-color: silver;
+    width: 34%;
+    padding: 5px 10px;
+    
+}
+
+.footer{ 
+    background-color: silver;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    padding: 10px;
+    width: 98.5%;
+}
+
+.copyright{
+ width: 50%;
+}
+
+.design{
+    width: 50%;
+    text-align:right;
+}
