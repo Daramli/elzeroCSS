@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px 10px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+.ht{
+    height: fit-content;
+    padding: 10px;
+}
+
+
+.grid div{
+    background-color: cadetblue;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid div:nth-child(1)::after{
+    content:"Element 1" ;
+}
+.grid div:nth-child(2)::after{
+    content:"Element 2" ;
+}
+.grid div:nth-child(3)::after{
+    content:"Element 3" ;
+}
+.grid div:nth-child(4)::after{
+    content:"Element 4" ;
+}
+.grid div:nth-child(5)::after{
+    content:"Element 5" ;
+}
+.grid div:nth-child(6)::after{
+    content:"Element 6" ;
+}

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+div{
+    background-color: #eee;
+    margin: 20px auto;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.fancy-border{
+        border: 7px solid;
+        border-image:   linear-gradient(to right, red 0%,red 20%,blue 20%,blue 40%,green 40%,green 60%,pink 60%,pink 80%,purple 80%,purple 100%)5;
+
+}
+
+div::first-letter{
+    color: red;
+}
+
+input{
+    margin: 10px auto;
+    padding: 15px;
+    display: block;
+    width: 600px;
+    border: none;
+    background-color: #eee;
+    border-bottom: 3px solid;
+    border-image : linear-gradient(to right,tomato 0%,tomato 50%,teal 50%,teal 100%)1;
+}
