@@ -1,0 +1,66 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas:
+    'one one two three'
+    'four five five three'
+    'four six six three'
+    'seven eight nine ten'
+    ;
+    gap: 10px;
+    background-color: #eee;
+    overflow: hidden;
+    
+}
+
+body div{
+    border-bottom: 3px solid orangered;
+    padding: 10px;
+
+}
+
+h4{
+    color: silver;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.white{
+    background-color: white;
+    color: black;
+}
+
+.os{
+    grid-area: one ;
+}
+.ah{
+    grid-area: two ;
+}
+.sh{
+    grid-area: three;
+}
+.mi{
+    grid-area: four;
+}
+.mm{
+    grid-area: five ;
+}
+.ee{
+    grid-area:six ;
+}
+.ms{
+    grid-area:seven ;
+}
+.is{
+    grid-area:eight ;
+}
+.gs{
+    grid-area: nine ;
+}
+.es{
+    grid-area: ten ;
+}
